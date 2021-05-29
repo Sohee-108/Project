@@ -4,7 +4,7 @@
 console.log('Hello World!');
 
 
-// 2.Variable
+// 2.Variable (read/write)
 // let (added in ES6) : 값 변경 가능 변수
 let globalname = "global name";
 {
@@ -18,7 +18,7 @@ console.log(globalname);
 console.log(globalname);
 console.log(name);
 
-// 3.Constants : 값 변경 불가능 변수
+// 3.Constants : 값 변경 불가능 변수 (read only)
 const daysInWeek = 7;
 const maxNumber = 5;
 
