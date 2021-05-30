@@ -7,7 +7,7 @@ import './App.css';
 function App() {
 
   let [글제목, 글제목변경] = useState(['남자 코트 추천','강남 우동 맛집','파운데이션 추천']);
-  {/* var [a,b] = [10, 100]; destructuring 문법: 10,100을 변수 a,b에 담기 */}
+  /* var [a,b] = [10, 100]; destructuring 문법: 10,100을 변수 a,b에 담기 */
   let [따봉, 따봉변경] = useState(0);
   let posts = '강남 고기 맛집';
 
@@ -44,7 +44,7 @@ function App() {
 
       {/*<h4> { posts } </h4> 
       데이터바인딩함수 {변수명 또는 함수명} 
-      <img src={logo}/> 이미지 가져올 때 import 해와서 이름 가져오기 */}
+  <img src={logo}/> 이미지 가져올 때 import 해와서 이름 가져오기 */}
     </div>
   );
 }
