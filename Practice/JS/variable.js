@@ -60,3 +60,6 @@ console.log(`value: ${text}, tpye: ${typeof text}`);
 text = '8' / '2';
 console.log(`value: ${text}, tpye: ${typeof text}`);
  
+
+// 7. Ternary operator: ?
+console.log(name === 'sohee' ? 'yes' : 'no');
