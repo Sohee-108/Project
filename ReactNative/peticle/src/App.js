@@ -11,6 +11,7 @@ function App() {
 
 
   return (
+    //NavBar
     <nav class="navbar">
         <div class="navbar_logo">
             <a href="#"><img class="logo" src="image/peticle_logo.png"/></a>
@@ -29,6 +30,12 @@ function App() {
             <FontAwesomeIcon icon={faBars} />
         </a>
     </nav>
+    
+    //Header
+
+    //Main
+
+    //Footer
     
   );
 }
