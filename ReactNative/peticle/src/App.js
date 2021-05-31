@@ -22,8 +22,8 @@ function App() {
             <li><a href="">문의하기</a></li>
         </ul>
         <ul class="navbar_social">
-           <li><FontAwesomeIcon icon={faFacebook} /></li>
-           <li><FontAwesomeIcon icon={faInstagram} /></li>
+           <li><a href="http://facebook.com" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
+           <li><a href="http://instagram.com" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a></li>
         </ul>
         <a href="#" class="navbar_toogleBtn">
             <FontAwesomeIcon icon={faBars} />
