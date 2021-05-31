@@ -22,6 +22,7 @@
 
 /* NavBar */
 .navbar {
+  font-family: 'BMJUA';
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,6 +59,7 @@
 .navbar_icon{
   display: flex;
   list-style: none;
+  font-size: var(--l);
 }
 
 .navbar_icon li a{
