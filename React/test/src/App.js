@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from "./components/Nav.js";
 import Header from "./components/Header.js";
 import Content from "./components/Content.js";
+import Control from "./components/Control.js";
 import './App.css';
 
 class App extends Component {
@@ -57,6 +58,9 @@ class App extends Component {
         }.bind(this)} 
         data={this.state.contents}
         ></Nav>
+        <Control onChangeMode={function(_mode){ 
+          this.setState({mode:_mode});
+        }.bind(this)}></Control>
         <Content title={_title} desc={_desc}></Content>
       </div>
     );
