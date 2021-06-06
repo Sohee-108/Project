@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Nav extends Component {
+class TOC extends Component {
     render() {
       var lists = [];
       var data = this.props.data;
@@ -29,4 +29,4 @@ class Nav extends Component {
     }
   }
 
-  export default Nav;
+  export default TOC;
