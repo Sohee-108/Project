@@ -13,7 +13,7 @@
   /* Font-Size */
   --s: 12px;
   --m: 16px;
-  --l: 20px;
+  --l: 19px;
   --xl: 24px;
   --xxl: 28px;
   
@@ -25,7 +25,7 @@
   font-family: 'BMJUA';
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: var(--pink1);
   
 }
@@ -47,6 +47,7 @@
 }
 
 .navbar_menu li{
+  font-size: var(--l);
   padding: 5px 50px;
 }
 
@@ -68,7 +69,7 @@
 }
 
 .navbar_icon a{
-  padding: 5px 15px
+  padding: 5px 15px;
 }
 
 .navbar_toogleBtn {
